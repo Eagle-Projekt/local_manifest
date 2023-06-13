@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="ep"
+                fetch="https://github.com/Eagle-Projekt" />
+
+        <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="ep" revision="aosp-13"/>
+        <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="ep" revision="thirteen"/>
+        <project path="device/xiaomi/fog-kernel" name="device_xiaomi_fog-kernel" remote="ep" revision="thirteen"/>
+        <project path="kernel/xiaomi/sm6225" name="kernel_xiaomi_sm6225-header" remote="ep" revision=""/>
+
+</manifest>
